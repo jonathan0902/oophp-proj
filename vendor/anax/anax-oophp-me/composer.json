@@ -1,0 +1,29 @@
+{
+    "name" : "anax/anax-oophp-me",
+    "description": "A me page for the oophp course using Anax Flat.",
+    "homepage": "https://github.com/canax/anax",
+    "license": "MIT",
+    "keywords": ["Anax", "dbwebb", "oophp"],
+    "authors": [
+        {
+            "name": "Mikael Roos",
+            "email": "mos@dbwebb.se"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/canax/anax-oophp-me2/issues",
+        "source": "https://github.com/canax/anax-oophp-me2"
+    },
+    "autoload": {
+        "psr-4": {"Anax\\": "src/"}
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2",
+        "anax/anax-flat": "^1.0.11"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}

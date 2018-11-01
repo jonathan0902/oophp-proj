@@ -1,0 +1,176 @@
+
+FILE: C:\cygwin64\home\jonat\dbwebb-kurser\oophp\me\kmom10\proj\src\Sql\Crud.php
+--------------------------------------------------------------------------------
+FOUND 16 ERRORS AFFECTING 12 LINES
+--------------------------------------------------------------------------------
+  2 | ERROR | [x] There must be one blank line after the namespace declaration
+ 16 | ERROR | [x] Line indented incorrectly; expected 4 spaces, found 5
+ 17 | ERROR | [x] Line indented incorrectly; expected 4 spaces, found 5
+ 18 | ERROR | [x] Line indented incorrectly; expected 4 spaces, found 5
+ 19 | ERROR | [x] Line indented incorrectly; expected 4 spaces, found 5
+ 20 | ERROR | [x] Line indented incorrectly; expected 4 spaces, found 5
+ 22 | ERROR | [ ] Visibility must be declared on method "__construct"
+ 30 | ERROR | [ ] Visibility must be declared on method "connectDB"
+ 30 | ERROR | [x] Opening brace should be on a new line
+ 35 | ERROR | [ ] Visibility must be declared on method "insertData"
+ 35 | ERROR | [x] Opening brace should be on a new line
+ 40 | ERROR | [ ] Visibility must be declared on method "queryEdit"
+ 40 | ERROR | [x] Opening brace should be on a new line
+ 52 | ERROR | [ ] Visibility must be declared on method "queryShop"
+ 52 | ERROR | [x] Opening brace should be on a new line
+ 82 | ERROR | [x] Line indented incorrectly; expected at least 16 spaces, found
+    |       |     12
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 11 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: ...ygwin64\home\jonat\dbwebb-kurser\oophp\me\kmom10\proj\src\Sql\Database.php
+--------------------------------------------------------------------------------
+FOUND 28 ERRORS AFFECTING 19 LINES
+--------------------------------------------------------------------------------
+   2 | ERROR | [x] There must be one blank line after the namespace declaration
+  16 | ERROR | [x] Line indented incorrectly; expected 4 spaces, found 5
+  17 | ERROR | [x] Line indented incorrectly; expected 4 spaces, found 5
+  18 | ERROR | [x] Line indented incorrectly; expected 4 spaces, found 5
+  19 | ERROR | [x] Line indented incorrectly; expected 4 spaces, found 5
+  20 | ERROR | [x] Line indented incorrectly; expected 4 spaces, found 5
+  22 | ERROR | [ ] Visibility must be declared on method "__construct"
+  30 | ERROR | [ ] Visibility must be declared on method "connectDB"
+  30 | ERROR | [x] Opening brace should be on a new line
+  38 | ERROR | [ ] Visibility must be declared on method "queryUsername"
+  38 | ERROR | [x] Opening brace should be on a new line
+  50 | ERROR | [ ] Visibility must be declared on method "queryBlogg"
+  50 | ERROR | [x] Opening brace should be on a new line
+  56 | ERROR | [x] No space found after comma in function call
+  56 | ERROR | [x] No space found after comma in function call
+  58 | ERROR | [x] No space found after comma in function call
+  58 | ERROR | [x] No space found after comma in function call
+  59 | ERROR | [x] No space found after comma in function call
+  60 | ERROR | [x] No space found after comma in function call
+  60 | ERROR | [x] No space found after comma in function call
+  75 | ERROR | [x] Line indented incorrectly; expected at least 16 spaces,
+     |       |     found 12
+  83 | ERROR | [ ] Visibility must be declared on method "queryBloggPage"
+  83 | ERROR | [x] Opening brace should be on a new line
+  95 | ERROR | [ ] Visibility must be declared on method "queryShop"
+  95 | ERROR | [x] Opening brace should be on a new line
+ 125 | ERROR | [x] Line indented incorrectly; expected at least 16 spaces,
+     |       |     found 12
+ 133 | ERROR | [ ] Visibility must be declared on method "queryTable"
+ 133 | ERROR | [x] Opening brace should be on a new line
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 21 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: ...e\jonat\dbwebb-kurser\oophp\me\kmom10\proj\view\anax\v2\footer\default.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 50 | ERROR | [x] Line indented incorrectly; expected at least 16 spaces, found
+    |       |     14
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: ...e\jonat\dbwebb-kurser\oophp\me\kmom10\proj\view\anax\v2\layout\default.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+ 56 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+ 56 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+ 60 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: ...e\jonat\dbwebb-kurser\oophp\me\kmom10\proj\view\anax\v2\navbar\default.php
+--------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 17 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+ 17 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: ...64\home\jonat\dbwebb-kurser\oophp\me\kmom10\proj\view\normal\blogg-cms.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+ 27 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+ 32 | ERROR | [x] No space found after comma in function call
+ 32 | ERROR | [x] No space found after comma in function call
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: ...gwin64\home\jonat\dbwebb-kurser\oophp\me\kmom10\proj\view\normal\blogg.php
+--------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+ 1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+   |       |     "\r\n"
+ 2 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: ...gwin64\home\jonat\dbwebb-kurser\oophp\me\kmom10\proj\view\normal\index.php
+--------------------------------------------------------------------------------
+FOUND 20 ERRORS AFFECTING 20 LINES
+--------------------------------------------------------------------------------
+   1 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+   2 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+   3 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+   4 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+   5 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+   6 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+   8 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+  10 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+  11 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+  12 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+  13 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+  14 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+  15 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+  16 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+  17 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+  19 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+  20 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+  21 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+ 130 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+ 131 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 20 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: ...n64\home\jonat\dbwebb-kurser\oophp\me\kmom10\proj\view\normal\shop-cms.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 27 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: ...ygwin64\home\jonat\dbwebb-kurser\oophp\me\kmom10\proj\view\normal\shop.php
+--------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+ 1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+   |       |     "\r\n"
+ 2 | ERROR | [x] Spaces must be used to indent lines; tabs are not allowed
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+Time: 5.4 secs; Memory: 8Mb
+

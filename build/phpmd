@@ -1,0 +1,3 @@
+C:\cygwin64\home\jonat\dbwebb-kurser\oophp\me\kmom10\proj\src\Sql\Database.php:34	The method connectDB() contains an exit expression.
+C:\cygwin64\home\jonat\dbwebb-kurser\oophp\me\kmom10\proj\src\Sql\Database.php:42	Avoid unused local variables such as '$row'.
+C:\cygwin64\home\jonat\dbwebb-kurser\oophp\me\kmom10\proj\src\Sql\Database.php:57	Avoid using static access to class '\DateTime' in method 'queryBlogg'.
