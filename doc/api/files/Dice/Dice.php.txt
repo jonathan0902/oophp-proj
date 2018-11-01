@@ -1,0 +1,48 @@
+<?php
+namespace Jonathan\Dice;
+
+/**
+ *
+ */
+class Dice
+{
+    /**
+     * @var boolean $base   The current state of who turn it is.
+     */
+
+    protected $base;
+
+    public function __construct(bool $base = true)
+    {
+        $this->base = $base;
+    }
+
+    public function throwDice()
+    {
+        return rand(1, 6);
+    }
+
+    public function getBase()
+    {
+        return $this->base;
+    }
+
+    public function checkDice($val)
+    {
+        if ($val == 1) {
+            return [$val, true];
+        } else {
+            return [$val, false];
+        }
+    }
+
+    public function checkHand($val, $str)
+    {
+        if ($val > 100) {
+            return [false, $str];
+        } else {
+            return [true, "error"];
+        }
+    }
+}
+

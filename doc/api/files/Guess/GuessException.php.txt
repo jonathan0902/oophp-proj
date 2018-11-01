@@ -1,0 +1,9 @@
+<?php
+namespace Jonathan\Guess;
+/**
+ * Exception class for GuessAgeException.
+ */
+class GuessException extends Exception
+{
+}
+

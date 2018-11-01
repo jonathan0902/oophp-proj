@@ -1,0 +1,43 @@
+<?php
+namespace Jonathan\Dice;
+
+/**
+ *
+ */
+class Player
+{
+    /**
+     * @var int $hand   The current value in hand
+     * @var int $storedhand   The current value in store
+     */
+
+    protected $hand;
+    protected $storedhand;
+
+    public function __construct($hand, $storedhand)
+    {
+        $this->hand = $hand;
+        $this->storedhand = $storedhand;
+    }
+
+    public function sumOfHand($value)
+    {
+        $this->hand += $value;
+    }
+
+    public function sumOfStore($value)
+    {
+        $this->storedhand += $value;
+    }
+
+    public function getHand()
+    {
+        return $this->hand;
+    }
+
+    public function getStoredHand()
+    {
+        return $this->storedhand;
+    }
+}
+
